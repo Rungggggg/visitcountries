@@ -1,0 +1,47 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #161624;
+}
+.title {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Roboto";
+  letter-spacing: 1px;
+  margin-top: 32px;
+  padding-left: 42px;
+}
+
+.countries-list-container {
+  max-width: 1200px;
+  width: 82%;
+  height: 420px;
+  margin: 32px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.visited-countries {
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-family: "Roboto";
+  margin-left: 22px;
+}
+.visited-list {
+  list-style-type: none;
+  margin: 0px;
+  width: 100%;
+
+  flex-wrap: wrap;
+}
+.no-countries {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 22px;
+  text-align: center;
+}
